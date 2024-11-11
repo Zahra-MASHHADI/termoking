@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.header h1{
+    font-size: 18px;
+}
+.header .menu a{
+   margin: 0 10px;
+}
+.footer{
+    background-color: black;
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between  ;
+}

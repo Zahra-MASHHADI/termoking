@@ -1,0 +1,48 @@
+.mainPicture{
+  height: 100vh;
+}
+.parallaxImage{
+    position: relative;
+    background-image: url('/Truck-road.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100%;
+}
+.mainPicture .info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-shadow: 2px 2px #000;
+    color: #ffffff;
+    z-index: 1;
+}
+.mainPicture .info h1{
+    font-size: 84px;
+   
+}
+.mainPicture .info p{
+    font-size: 25px;
+}
+.mainPicture .info .button{
+    display: flex;
+    justify-content: center;
+}
+.mainPicture .info .button a{
+    padding: 20px 60px;
+    margin: 40px 20px;
+    color:#ffffff;
+    font-size: 20px;
+    text-shadow: none;
+    cursor: pointer;
+}
+.mainPicture .info .button :first-child{
+    background-color: #36517e;
+}
+.mainPicture .info .button :last-child{
+    border: 2px solid #fff;
+}
